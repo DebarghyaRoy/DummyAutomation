@@ -14,12 +14,12 @@ public class LocalDriver implements IDriver {
 
 		case "chrome":
 			System.setProperty("webdriver.chrome.driver",
-					"..\\DummyAutomation\\DriversExe\\chromedriver.exe");
+					"..\\DummyAutomation\\DriverExe\\chromedriver.exe");
 			return new ChromeDriver();
 
 		case "ie":
 			System.setProperty("webdriver.ie.driver",
-					"..\\DummyAutomation\\DriversExe\\IEDriverServer.exe");
+					"..\\DummyAutomation\\DriverExe\\IEDriverServer.exe");
 			return new InternetExplorerDriver();
 		default:
 			return new FirefoxDriver();

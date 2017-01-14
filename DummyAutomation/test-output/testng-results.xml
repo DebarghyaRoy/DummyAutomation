@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="test-parameter" duration-ms="43779" started-at="2017-01-14T21:04:50Z" finished-at="2017-01-14T21:05:34Z">
+    <groups>
+    </groups>
+    <test name="DemoAutomation_TarGet" duration-ms="43779" started-at="2017-01-14T21:04:50Z" finished-at="2017-01-14T21:05:34Z">
+      <class name="com.demo.tests.DemoTest">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.demo.tests.DemoTest@523884b2]" name="setUpTest" is-config="true" duration-ms="5484" started-at="2017-01-15T02:34:51Z" finished-at="2017-01-15T02:34:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="search(java.lang.String, java.lang.String)[pri:0, instance:com.demo.tests.DemoTest@523884b2]" name="search" duration-ms="12948" started-at="2017-01-15T02:34:56Z" data-provider="SearchFunctionality" finished-at="2017-01-15T02:35:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IPAD]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demo.tests.DemoTest@523884b2]" name="tearDown" is-config="true" duration-ms="1031" started-at="2017-01-15T02:35:09Z" finished-at="2017-01-15T02:35:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.demo.tests.DemoTest@523884b2]" name="setUpTest" is-config="true" duration-ms="4356" started-at="2017-01-15T02:35:10Z" finished-at="2017-01-15T02:35:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="search(java.lang.String, java.lang.String)[pri:0, instance:com.demo.tests.DemoTest@523884b2]" name="search" duration-ms="18499" started-at="2017-01-15T02:35:14Z" data-provider="SearchFunctionality" finished-at="2017-01-15T02:35:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mobile]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demo.tests.DemoTest@523884b2]" name="tearDown" is-config="true" duration-ms="870" started-at="2017-01-15T02:35:33Z" finished-at="2017-01-15T02:35:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demo.tests.DemoTest -->
+    </test> <!-- DemoAutomation_TarGet -->
+  </suite> <!-- test-parameter -->
+</testng-results>

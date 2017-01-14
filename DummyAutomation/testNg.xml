@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="test-parameter" parallel="tests" thread-count="3">
+
+ <test name="DemoAutomation_TarGet">
+ <classes>
+ <class name="com.demo.testS.DemoTest"></class>
+ 
+ </classes>
+ </test>
+ </suite>
